@@ -42,6 +42,6 @@ egresos = []
 ingresos = []
 
 
-@app.get("/api/v1")
+@app.get("/")
 def great():
     return {"Hello": "World"}
